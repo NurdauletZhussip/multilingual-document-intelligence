@@ -1,0 +1,113 @@
+{
+  "documents": {
+    "en": {
+      "pages": [
+        "Supply invoice\nInvoice reference: B-170\nIssued by: Blue Mill Ltd\nCustomer: Example Depot",
+        "Payment summary\nSubtotal: USD 155.00\nTotal payable: USD 162.75\nPayment due date: 2026-12-18"
+      ],
+      "fields": {
+        "supplier": [
+          "Blue Mill Ltd",
+          1,
+          "Issued by"
+        ],
+        "invoice_id": [
+          "B-170",
+          1,
+          "Invoice reference"
+        ],
+        "total": [
+          "162.75 USD",
+          2,
+          "Total payable"
+        ],
+        "due_date": [
+          "2026-12-18",
+          2,
+          "Payment due date"
+        ]
+      }
+    },
+    "ru": {
+      "pages": [
+        "Счёт на услуги\nНомер документа: RU-581\nКомпания-поставщик: Steppe Print\nПокупатель: Demo Shop",
+        "Условия оплаты\nСумма без НДС: 18 000,00 руб.\nИтого к оплате: 19 800,00 руб.\nКрайний срок оплаты: 22.12.2026"
+      ],
+      "fields": {
+        "supplier": [
+          "Steppe Print",
+          1,
+          "Компания-поставщик"
+        ],
+        "invoice_id": [
+          "RU-581",
+          1,
+          "Номер документа"
+        ],
+        "total": [
+          "19800.00 RUB",
+          2,
+          "Итого к оплате"
+        ],
+        "due_date": [
+          "2026-12-22",
+          2,
+          "Крайний срок оплаты"
+        ]
+      }
+    },
+    "kk": {
+      "pages": [
+        "Төлем шоты\nШот-фактура нөмірі: KZ-047\nТауар жеткізуші: Qyr Design\nСатып алушы: Demo Shop",
+        "Төлем деректері\nҚҚС: 3 000,00 ₸\nЖалпы төлем сомасы: 28 000,00 ₸\nТөлемнің соңғы мерзімі: 24.12.2026"
+      ],
+      "fields": {
+        "supplier": [
+          "Qyr Design",
+          1,
+          "Тауар жеткізуші"
+        ],
+        "invoice_id": [
+          "KZ-047",
+          1,
+          "Шот-фактура нөмірі"
+        ],
+        "total": [
+          "28000.00 KZT",
+          2,
+          "Жалпы төлем сомасы"
+        ],
+        "due_date": [
+          "2026-12-24",
+          2,
+          "Төлемнің соңғы мерзімі"
+        ]
+      }
+    }
+  },
+  "questions": {
+    "en": {
+      "supplier": "Who is the vendor on this bill?",
+      "invoice_id": "Give me its invoice number.",
+      "total": "What amount is payable in total?",
+      "due_date": "What deadline is listed for payment?"
+    },
+    "ru": {
+      "supplier": "Назовите поставщика по этому счёту.",
+      "invoice_id": "Подскажите номер счёта.",
+      "total": "Сколько всего к оплате по счёту?",
+      "due_date": "Когда наступает срок оплаты счёта?"
+    },
+    "kk": {
+      "supplier": "Мұндағы жеткізуші кім екен?",
+      "invoice_id": "Осы шоттың нөмірін айтыңызшы.",
+      "total": "Барлығы қанша төлеуім керек?",
+      "due_date": "Осы шоттың төлем мерзімі қашан?"
+    }
+  },
+  "unsupported": [
+    "What is the VAT rate?",
+    "Куда доставят товар?",
+    "Сатып алушының мекенжайы қандай?"
+  ]
+}

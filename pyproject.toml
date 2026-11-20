@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multilingual-document-intelligence"
+version = "0.1.0"
+description = "Local multilingual invoice question answering with page-level evidence"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "pypdf>=6,<8"]
+readme = "README.md"
+
+[project.optional-dependencies]
+ocr = ["pypdfium2>=5,<6", "Pillow>=10,<14"]
+
+[project.scripts]
+invoice-lens = "invoice_lens.cli:main"
+
+[tool.setuptools]
+packages = ["invoice_lens"]
+
+[tool.setuptools.package-data]
+invoice_lens = ["training.json"]
